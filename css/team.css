@@ -1,3 +1,4 @@
+/*quick addon to spice it up please see other css for project goals goals*/
 /* background*/
 body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -19,16 +20,37 @@ body {
 }
 /*end background*/
 
+.tPhotos .tPhotos1 img {
+	width:15%;
+	padding:10px;
+}
+.tPhotos .tPhotos2 img {
+	width:15%;
+	padding:10px;
+}
+.tPhotos .tPhotos3 img {
+	width:15%;
+	padding:10px;
+}
+.tPhotos .tPhotos4 img {
+	width:15%;
+	padding:10px;
+}
+.tPhotos .tPhotos5 img {
+	width:15%;
+	padding:10px;
+}
+
+/*start type*/
 html{
 	min-height: 100%;
-	overflow: hidden;
+	/* overflow: hidden; */
   }
   body{
 	height: calc(100vh - 8em);
 	padding: 4em;
-	color: rgba(255,255,255,.75);
+	color: black;
 	font-family: 'Anonymous Pro', monospace;  
-	background-color: rgb(25,25,25);  
   }
   .line-1{
 	  position: relative;
@@ -50,7 +72,7 @@ html{
   }
   @keyframes typewriter{
 	from{width: 0;}
-	to{width: 24em;}
+	to{width: 18em;}
   }
   @keyframes blinkTextCursor{
 	from{border-right-color: rgba(255,255,255,.75);}
