@@ -41,6 +41,13 @@ body {
 	padding:10px;
 }
 
+
+nav a {
+	font-size: 35px;
+	text-decoration: none;
+	color: yellow;
+  }
+
 /*start type*/
 html{
 	min-height: 100%;
