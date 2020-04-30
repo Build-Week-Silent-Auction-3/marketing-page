@@ -91,18 +91,27 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-size: 18px;
-  margin-bottom: 15px;
+h2 {
+  font-size: 30px;
   font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+  text-align: center;
+}
+p {
+  text-align: center;
 }
 .container {
   width: 1000px;
   margin: 0 auto;
+}
+.topHeader {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .middle {
   display: flex;
@@ -113,19 +122,30 @@ h5 {
 }
 .bottom {
   padding: 20px;
-  border-bottom: 1px dashed black;
+  color: white;
+  background: black;
   border-top: 1px dashed black;
   /*kinda pointless unless i add footer*/
 }
-.bottom2 img {
+.bottom .bottom2 img {
+  height: 100px;
   padding: 20px;
+  width: auto;
 }
 nav {
   display: flex;
   justify-content: space-around;
+  background: black;
+  padding: 25px;
 }
 nav a {
   font-size: 25px;
   text-decoration: none;
-  color: black;
+  color: white;
+}
+nav img {
+  width: 15%;
+}
+nav a:hover {
+  color: gray;
 }
